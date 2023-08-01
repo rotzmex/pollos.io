@@ -8,8 +8,8 @@ menu.onclick = () => {
 }
 
 window.onscroll = () => {
-    menu.classList.toggle('fa-times');
-    navbar.classList.toggle('active');
+    menu.classList.remove('fa-times');
+    navbar.classList.remove('active');
 
     if (window.scrollY > 60) {
         document.querySelector('#scroll-top').classList.add('active');
